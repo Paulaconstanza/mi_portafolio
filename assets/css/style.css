@@ -1,5 +1,3 @@
-
-
 body * {
     font-family: 'Crimson Text', Sans serif;
     margin: 0px;
@@ -12,7 +10,8 @@ html {
     scroll-behavior: smooth;
 }
 
-h1, h2 {
+h1,
+h2 {
     font-family: 'Josefin Sans', Sans serif;
 }
 
@@ -21,15 +20,16 @@ h1, h2 {
 .navbar {
     background-color: #660066;
     color: #FDECEF;
-    font-family: 'Courier Prime', monospace;
     font-weight: 400;
     width: 100%;
     height: 60px;
+    background-image: linear-gradient(180deg, #D39D38, #D39D38,#D39D38, #D39D38, #ffffff);
+
 }
 
 .navbar-brand {
     padding-left: 10vw;
-    font-family: Josefin Sans, sans-serif;
+    font-family: 'Josefin Sans', Sans serif;
 }
 
 .navbar-toggler {
@@ -38,7 +38,7 @@ h1, h2 {
     line-height: 1;
     background-color: transparent;
     border: 1px solid transparent;
-    
+
 }
 
 .navbar-toggler-icon {
@@ -46,7 +46,7 @@ h1, h2 {
     height: 1.5em;
     background: #FDECEF;
     border-radius: 50%;
-   
+
 }
 
 nav a {
@@ -57,7 +57,7 @@ nav a {
 
 .hero-section {
     display: inline-block;
-    background-image: url('../img/bg_hero.png');
+    background-image: url('../img/hero_image.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 0px;
@@ -92,13 +92,14 @@ header h2 {
 
 
 
-.pb-5, .py-5 {
-    margin-bottom: 1rem!important;
+.pb-5,
+.py-5 {
+    margin-bottom: 1rem !important;
 }
 
 
 .hero-texto-dos h1 {
-    color:#FDECEF;
+    color: #FDECEF;
     font-weight: bolder;
     font-size: 80px;
     padding-top: 50px;
@@ -116,7 +117,7 @@ header h2 {
 
 .horizontal-row-main {
     height: 1px;
-    width: 408px;
+    width: 215px;
     background-color: #FDECEF;
     text-align: -webkit-center;
 }
@@ -146,34 +147,37 @@ header h2 {
 /* Carousel */
 
 #carouselExampleIndicators {
-    padding-bottom: 3rem!important;
+    padding-bottom: 3rem !important;
 }
 
 
-.carousel-item img{
+.carousel-item img {
     width: 233px;
     height: 170px;
 }
 
-.carousel-indicators li{
+.carousel-indicators li {
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #660066;
 }
 
 /* My works section */
 
 #my-works {
-    background-color: #660066;
+    background-image: linear-gradient(180deg, #ffffff, #D39D38, #D39D38, #D39D38, #D39D38,#D39D38, #D39D38, #D39D38, #D39D38,#D39D38, #D39D38, #ffffff);
     color: #000000;
 }
+
 .card {
     margin: 20px;
 }
-.card h5,
+
+.card h5 {
+    font-family: 'Josefin Sans', Sans serif;
+}
 .card p {
-    font-family: 'Chilanka', cursive;
+    
     font-size: 100%;
 }
 
@@ -183,14 +187,14 @@ header h2 {
 
 
 /* Footer */
-.footer-font-awesome {
+.navfoot {
     width: 100%;
     height: 200px;
-    background-color: #660066;
+    background-image: linear-gradient(180deg, #ffffff, #D39D38, #D39D38,#D39D38, #D39D38);
     color: #FDECEF;
 }
 
-.footer-font-awesome .fab {
+.navfoot .fab {
     color: #FDECEF;
 }
 
@@ -211,10 +215,11 @@ header h2 {
 }
 
 
-#name{
+#name {
     position: relative;
 }
-#iam{
+
+#iam {
     position: relative;
 }
 
@@ -222,23 +227,27 @@ header h2 {
 /* Media Queries */
 
 @media (max-width: 600px) {
+
     .hero-texto h1,
     .hero-texto h2 {
-    font-size: 21px;
+        font-size: 21px;
     }
 }
 
 @media (max-width: 600px) {
+
     .hero-texto h1,
     .hero-texto h2 {
         background-color: transparent;
-        }
+    }
 }
+
 @media (max-width: 600px) {
+
     .hero-texto h1,
     .hero-texto h2 {
         width: 100%;
-        }
+    }
 }
 
 @media (max-width: 600px) {
@@ -249,12 +258,13 @@ header h2 {
 
 @media (max-width: 600px) {
     .my-4 {
-        margin-top: -0.5rem!important;
+        margin-top: -0.5rem !important;
     }
 }
+
 @media (max-width: 600px) {
     .mt-4 {
-        margin-top: -0.5rem!important;
+        margin-top: -0.5rem !important;
     }
 }
 
@@ -274,17 +284,23 @@ header h2 {
     #my-experience {
         padding-top: 0px;
         margin-top: 0px;
-        height: 780px;
+        height: 600px;
     }
 }
+
 @media (max-width: 600px) {
-    .pt-5, .py-5 {
-        padding-top: 2rem!important;
+
+    .pt-5,
+    .py-5 {
+        padding-top: 2rem !important;
     }
 }
+
 @media (max-width: 600px) {
-    .pb-5, .py-5 {
-        padding-bottom: 3rem!important;
+
+    .pb-5,
+    .py-5 {
+        padding-bottom: 3rem !important;
     }
 }
 
@@ -297,6 +313,7 @@ header h2 {
         padding-top: 105px;
     }
 }
+
 @media (max-width: 700px) {
     .hero-texto-dos h2 {
         font-size: 60px;
@@ -317,6 +334,7 @@ header h2 {
         padding-top: 10px;
     }
 }
+
 @media (max-width: 650px) {
     .hero-texto-dos h2 {
         font-size: 10px;
@@ -337,6 +355,7 @@ header h2 {
         padding-top: 150px;
     }
 }
+
 @media (max-width: 1050px) {
     .hero-texto-dos h2 {
         font-size: 50px;
@@ -350,9 +369,10 @@ header h2 {
 }
 
 @media (max-width: 1050px) {
+
     .hero-texto h1,
     .hero-texto h2 {
-    font-size: 21px;
+        font-size: 21px;
     }
 }
 
@@ -370,6 +390,7 @@ header h2 {
         padding-top: 190px;
     }
 }
+
 @media (max-width: 420px) {
     .hero-texto-dos h2 {
         font-size: 40px;
@@ -392,6 +413,7 @@ header h2 {
 
 /* Media queries for Iphone 5*/
 @media (max-width: 360px) {
+
     .hero-texto h1,
     .hero-texto h2 {
         font-size: 15px;
@@ -404,6 +426,7 @@ header h2 {
         padding-top: 90px;
     }
 }
+
 @media (max-width: 380px) {
     .hero-texto-dos h2 {
         font-size: 30px;
@@ -420,7 +443,7 @@ header h2 {
 
 @media (max-width: 380px) {
     .navbar-brand {
-        font-size: 15px!important;
+        font-size: 15px !important;
     }
 }
 
@@ -434,12 +457,14 @@ header h2 {
         padding-top: 125px;
     }
 }
+
 @media all and (max-width: 800px) {
     .hero-texto-dos h2 {
         font-size: 30px;
         padding-top: 30px;
     }
 }
+
 @media (max-width: 1050px) {
     .hero-texto-dos h2 {
         font-size: 40px;
@@ -453,9 +478,10 @@ header h2 {
 }
 
 @media (max-width: 1050px) {
+
     .hero-texto h1,
     .hero-texto h2 {
-    font-size: 17px;
+        font-size: 17px;
     }
 }
 
@@ -470,18 +496,19 @@ header h2 {
 /* Media queries for footer-section*/
 
 @media (max-width: 500px) {
-    .ul-footer  {
-        padding-top: 0px!important;
-    }
-}
-@media (max-width: 450px) {
-    .brand-footer h2  {
-        padding-top: 60px!important;
-    }
-}
-@media (max-width: 450px) {
-    .brand-footer h2  {
-        padding-bottom: 6px!important;
+    .ul-footer {
+        padding-top: 0px !important;
     }
 }
 
+@media (max-width: 450px) {
+    .brand-footer h2 {
+        padding-top: 60px !important;
+    }
+}
+
+@media (max-width: 450px) {
+    .brand-footer h2 {
+        padding-bottom: 6px !important;
+    }
+}
